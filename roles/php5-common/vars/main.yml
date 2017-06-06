@@ -1,0 +1,13 @@
+php_packages:
+  - { name: php 5.6, package: php5.6 }
+  - { name: curl, package: php5.6-curl }
+  - { name: mcrypt, package: php5.6-mcrypt }
+  - { name: mysql, package: php5.6-mysql }
+  - { name: gd, package: php5.6-gd }
+  - { name: xdebug, package: php5.6-xdebug }
+  - { name: intl, package: php5.6-intl }
+  - { name: soap, package: php5.6-soap }
+  - { name: dom, package: php5.6-dom }
+  - { name: simplexml, package: php5.6-simplexml }
+  - { name: mbstring, package: php5.6-mbstring }
+  - { name: zip, package: php5.6-zip }

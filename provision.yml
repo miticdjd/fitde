@@ -1,0 +1,22 @@
+---
+- hosts: all
+  sudo:  true
+  roles:
+    # Common
+    - common
+    - python
+
+    # nginx
+    - nginx
+
+    # Storage
+    - mysql
+
+    # PHP
+    - php5-common
+    - php5-cli
+    - php5-fpm
+    - composer
+
+    # FIT
+    - fit

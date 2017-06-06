@@ -1,0 +1,8 @@
+---
+- name: install python-pycurl
+  apt: pkg=python-pycurl state=latest update_cache=true
+  sudo: yes
+
+- name: install python-pycurl
+  apt: pkg=python-software-properties state=latest
+  sudo: yes

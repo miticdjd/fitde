@@ -1,0 +1,3 @@
+---
+- name: install php5.6-cli
+  apt: pkg=php5.6-cli state=latest update_cache=yes

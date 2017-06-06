@@ -1,0 +1,9 @@
+---
+- name: install common packages
+  apt: pkg={{ item }} state=latest
+  with_items:
+    - git
+    - curl
+    - build-essential
+    - zip
+    - unzip
