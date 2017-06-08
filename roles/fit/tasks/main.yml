@@ -1,8 +1,8 @@
 ---
-- name: configure nginx for it355
-  copy: src=it355.conf dest=/etc/nginx/sites-available/it355.conf
+- name: configure nginx for db-rest
+  copy: src=db-rest.conf dest=/etc/nginx/sites-available/db-rest.conf
 
-- name: enable it355
-  file: src=/etc/nginx/sites-available/it355.conf dest=/etc/nginx/sites-enabled/it355.conf state=link
+- name: enable db-rest
+  file: src=/etc/nginx/sites-available/db-rest.conf dest=/etc/nginx/sites-enabled/db-rest.conf state=link
   notify:
     - restart nginx
